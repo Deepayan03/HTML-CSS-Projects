@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg);
+    background-size: cover;
+}
+.nav{
+    align-items: center;
+    display:flex;
+} 
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+#img1{
+    height: 50px;
+    width:50px;
+    display:inline;
+    margin-left: 20px;
+}
+#Links{
+    display:inline-flex;
+    position: relative;
+    left:30em;
+    gap: 50px;
+    font-size: 20px;
+    padding-top: 0px;
+    
+} 
+#btn{
+    background-color: lightseagreen;
+    width: 100px;
+    height:20px;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.btn{
+    position:relative;
+    cursor: pointer;
+    left: 40em;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#btn:hover{
+    background-color:seagreen;
+    cursor: pointer;
+ }
+ #fstline{
+    font-size: 40px;
+    font-weight: 10px;
+    margin: 0px;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#sndline{
+    font-size: 30px;
+    font-weight: 8px;
+    margin-top:2px;
+    margin-bottom:2px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#trdline{
+    font-size: 20px;
+    font-weight: 8px;
+    margin-top:2px;
+    margin-bottom:2px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    position: relative;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #fff;
+    top:3.5em;
+    left:4em;
+}

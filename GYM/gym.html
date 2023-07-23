@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <style>
+        body{
+            background-image:url(./gymbg.png);
+        }
+        img{
+            filter: invert(100%);
+            width: 100px;
+            box-shadow: 0 0 30px white;
+        }
+        .left{
+            position: absolute;
+            
+            top: 30px;
+            left: 30px;
+            color: white;
+        }
+        .left h2{
+            text-shadow: 0 0 10px blue;
+        }
+        .mid{
+            position: absolute;
+            color: white;
+            left: 25em;
+            width: 50em;
+            top: 15px;
+        }
+        .mid li{
+            display: inline;
+            padding: 35px;
+        }
+        .mid li a{
+            text-decoration: none;
+            color: white;
+        }
+        .right{
+            position: absolute;
+            color: white;
+            left: 80em;
+            top: 17px;
+            width: 15em;
+            display: inline;
+        }
+        .btn{
+            padding: 10px;
+            margin: 5px;
+            
+            background-color: black;
+            color: white;
+
+        }
+        .btn:hover{
+            background-color: rgb(50, 49, 49);
+            cursor:pointer;
+        }
+        .mid li a:hover{
+            color: rgb(151, 146, 146);
+            text-decoration: underline;
+        }
+        .article{
+            color: white;
+            position: absolute;
+            top: 12em;
+            left: 30em;
+         
+            text-align: center;
+            font-weight: bold;
+            height: 30em;
+            width: 40em;
+        }
+        .firstline{
+            font-size: 1em;
+        }
+        .secondline{
+            font-size: 3em;
+        }
+        .thirdline{
+            font-size: 1em;
+        }
+        .btn2
+        {
+            width: 15em;
+            height: 40px;
+            margin-top: 40px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        .btn2:hover{
+            cursor: pointer;
+            box-shadow: 0 0 10px white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="left">
+    <img src="https://m.media-amazon.com/images/I/51RltHtl48L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg" alt="gym">
+    <h2>PHOENIX FITNESS</h2>
+    </div>
+    <div class="mid sticky">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CLASSES</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">OUR TEAM</a></li>
+            <LI><a href="#">ABOUT US</a></LI>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn">CONTACT US</button>
+        <button class="btn">EMAIL US</button>
+    </div>
+    <div class="article">
+        <p class="firstline">FUEL YOUR</p>
+        <p class="secondline">BODY FITNESS</p>
+        <p class="thirdline">When we created Gym Base , we knew we wanted to be more than just</p>
+        <p class="fourthline"> a simple gym . Having worked in traditional gyms in the past.</p>
+        <button class="btn2">BE ONE OF US</button>
+    </div>
+</body>
+</html>

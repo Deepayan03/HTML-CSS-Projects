@@ -1,0 +1,140 @@
+body{
+ 
+    font-family: 'Ubuntu';
+}
+.container{
+    padding: 0 7%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg");
+    background-size: cover;
+}
+
+/*  Navbar  */
+
+.nav-btn{
+    border-radius: 20px;
+}
+.navbar-box{
+    margin-right: 50px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+
+/*  article  */
+
+h1{
+    color: #fff;
+    letter-spacing: 5px;
+}
+h2{
+    color: #fff;
+    letter-spacing: 5px;
+}
+h6{
+    color: #fff;
+    font-family: 'Roboto';
+    letter-spacing: 5px;
+    margin-top: 1rem;
+}
+.main{
+    margin-top: 1rem;
+}
+.article-btn{
+    border-radius: 20px;
+    margin-left: 30px;
+}
+/*.article-btn:hover{
+    background-color: red;
+    color: #fff;
+    border: none;
+}*/
+#btn{
+    margin-top: 20px;
+}
+#search1{
+    padding: 10px 3.7rem;
+    margin-left: 0;
+}
+#search2{
+    padding:  10px 3.7rem;
+}
+#btn1{
+    margin-left: 4px;
+    padding:10.5px 20px 10.5px 20px;
+}
+.search-bar{
+    margin: 40px 0 20px 0;
+}
+#browse{
+    margin-top: 2rem;
+}
+
+/*  Footer  */
+
+#first{
+    background-color: #fff;
+    text-align: center;
+    width: 13rem;
+    height: 13rem;
+    margin: 3.5rem 0 0 4rem;
+    border-radius: 30px;
+}
+#first p{
+    font-size: small;
+    color: rgb(132, 132, 132);
+}
+#second{
+    background-color: #fff;
+    text-align: center;
+    width: 13rem;
+    height: 13rem;
+    margin: 3.5rem 0 0 4rem;
+    border-radius: 30px;
+}
+#second p{
+    font-size: small;
+    color: rgb(132, 132, 132);
+}
+#third{
+    background-color: #fff;
+    text-align: center;
+    width: 13rem;
+    height: 13rem;
+    margin: 3.5rem 0 0 4rem;
+    border-radius: 30px;
+}
+#third p{
+    font-size: small;
+    color: rgb(132, 132, 132);
+}
+#fourth{
+    background-color: #fff;
+    text-align: center;
+    width: 13rem;
+    height: 13rem;
+    margin: 3.5rem 0 0 4rem;
+    border-radius: 30px;
+}
+#fourth p{
+    font-size: small;
+    color: rgb(132, 132, 132);
+}
+h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/*  Media  */
+@media (min-width : 980px) and (max-width : 1200px) {
+    #btn1{
+        margin-left: 2rem;
+    }
+    #search1{
+        padding: 10px 2rem;
+    }
+}
